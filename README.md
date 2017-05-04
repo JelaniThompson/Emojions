@@ -108,7 +108,7 @@ Because of the small size of tested file we will be keeping test suites to singl
 5. The basic format for testing is: `describe('functionName()', () => it("returns X"))`
 6. Nested `describes()` are allowed and encouraged.
 6. The phrases attached to these syntactic functions should document their own process and the code. So try to make it as clear as possible.
-5. Create unit tests! I know this is a big black box for some people. But it can't all be explained it here. Tests are created for `pipe()` as a template if you'd like! You can also check the documentation for [Jest](http://facebook.github.io/jest/) and [Sinon](http://sinonjs.org/).
+5. Create unit tests! I know this is a big black box for some people. But it can't all be explained in here. Tests are created for `pipe()` as a template if you'd like! You can also check the documentation for [Jest](http://facebook.github.io/jest/) and [Sinon](http://sinonjs.org/).
 6. Check coverage. When you run `yarn test` it will output a list of coverages. If you'd like specific highlights you can checkout the automatically generated `snippets/coverage` directory which will generate an easy to use webpage containing coverage information.
 
 ### Tips
